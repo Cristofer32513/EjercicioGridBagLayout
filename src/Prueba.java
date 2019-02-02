@@ -70,6 +70,13 @@ public class Prueba extends JFrame{
 				formato(rb2, 0, 9, 1, 1, 1);
 						
 		
+		JLabel label4=new JLabel("<html><body>(edit required fields in <font color=blue>the form builder</font>)</body></html>");
+			label4.setFont(new Font("Times New Roman", 5, 14));
+		formato(label4, 0, 11, 1, 1, 1);
+		formato(new JLabel(" "), 0, 12, 1, 1, 1);
+		formato(new JLabel(" "), 0, 13, 1, 1, 1);
+		
+		
 		
 		
 		
