@@ -62,6 +62,7 @@ public class Prueba extends JFrame{
 			label3.setFont(new Font("Times New Roman", 5, 18));
 		formato(label3, 0, 5, 1, 1, 1);
 		
+		
 		JCheckBox checkBox1=new JCheckBox("A title for your form");
 			checkBox1.setFont(new Font("Times New Roman", 5, 18));
 		formato(checkBox1, 0, 6, 1, 1, 1);
@@ -147,9 +148,10 @@ public class Prueba extends JFrame{
 		formato(new JLabel("   "), 1, 0, 1, 1, 1);
 		
 		
-		JLabel label7=new JLabel("      .");
-			label7.setFont(new Font("Times New Roman", 5, 1));
+		JLabel label7=new JLabel("                        .");
+			label7.setFont(new Font("Times New Roman", 5, 4));
 		formato(label7, 1, 20, 1, 1, 1);
+		
 		
 		JLabel label8=new JLabel("Preview");
 			label8.setFont(new Font("Arial", 5	, 24));
@@ -158,6 +160,7 @@ public class Prueba extends JFrame{
 		
 		panel1.setLayout(gbl);
 			panel1.setBorder(BorderFactory.createTitledBorder(""));
+			
 			
 			JLabel label9=new JLabel("<html><body><font color=red>* </font>Inidcates required</body></html>");
 				label9.setFont(new Font("Times New Roman", 5	, 14));
@@ -169,8 +172,7 @@ public class Prueba extends JFrame{
 			JLabel label10=new JLabel("<html><body>Email Address <font color=red>* </font></body></html>");
 				label10.setFont(new Font("Times New Roman", 5, 18));
 			formato2(label10, 0, 1, 1, 1, 1);
-			
-			
+						
 			
 			MaskFormatter mask = null;
 	        try {
