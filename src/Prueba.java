@@ -93,6 +93,13 @@ public class Prueba extends JFrame{
 		formato(label5, 0, 17, 1, 1, 1);
 		
 		
+		JTextField txtCaja2=new JTextField();
+			txtCaja2.setFont(new Font("Times New Roman", 5, 18));
+			txtCaja2.setBackground(new Color(240, 240, 240));
+		formato(txtCaja2, 0, 18, 1, 1, 1);
+		formato(new JLabel(" "), 0, 19, 1, 1, 1);
+				
+		
 		
 		
 		
