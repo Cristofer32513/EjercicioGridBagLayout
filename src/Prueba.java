@@ -88,6 +88,11 @@ public class Prueba extends JFrame{
 		formato(new JLabel(" "), 0, 16, 1, 1, 1);
 				
 		
+		JLabel label5=new JLabel("Set form width:");
+			label5.setFont(new Font("Times New Roman", 5, 18));
+		formato(label5, 0, 17, 1, 1, 1);
+		
+		
 		
 		
 		
