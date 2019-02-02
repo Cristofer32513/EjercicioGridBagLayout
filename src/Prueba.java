@@ -40,7 +40,7 @@ public class Prueba extends JFrame{
 		getContentPane().setLayout(gbl);
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
 		setTitle("Formulario");
-		setLocationRelativeTo(null);
+		setLocation(200, 50);
 		setVisible(true);
 		setResizable(false);
 		
@@ -219,6 +219,10 @@ public class Prueba extends JFrame{
 			formato2(btn1, 0, 7, 1, 2, 1);
 		formato(panel1, 2, 1, 2, 13, 1);
 		
+		
+		JLabel label13 = new JLabel("Copy/past Onto your site");
+			label13.setFont(new Font("Arial", 5	, 24));
+		formato(label13, 2, 16, 1, 1, 2);
 		
 		
 		
