@@ -166,8 +166,13 @@ public class Prueba extends JFrame{
 			formato2(new JLabel("                                                                                                            ."), 1, 0, 1, 1, 1);
 					
 			
+			JLabel label10=new JLabel("<html><body>Email Address <font color=red>* </font></body></html>");
+				label10.setFont(new Font("Times New Roman", 5, 18));
+			formato2(label10, 0, 1, 1, 1, 1);
 			
-		formato(panel1, 2, 1, 2, 13, 1);
+			
+			
+					formato(panel1, 2, 1, 2, 13, 1);
 		
 		
 		
