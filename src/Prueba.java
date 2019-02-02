@@ -172,7 +172,24 @@ public class Prueba extends JFrame{
 			
 			
 			
-					formato(panel1, 2, 1, 2, 13, 1);
+			MaskFormatter mask = null;
+	        try {
+	            mask = new MaskFormatter("?????????#####@gmail.com");
+	            mask.setPlaceholderCharacter('*');
+	        } catch (ParseException e) {
+	            e.printStackTrace();
+	        }
+	        JFormattedTextField fTxtCaja3 = new JFormattedTextField(mask);
+		        //fTxtCaja3.setHorizontalAlignment(JTextField.RIGHT);// ¿Es realmente necesario?
+				//fTxtCaja3.setForeground(Color.RED); //LO QUITE POR QUE ME PONIA TODO EN ROJO
+		        fTxtCaja3.setBounds(10, 35, 590, 35);
+		        fTxtCaja3.setFont(new Font("Times New Roman", 5, 18));
+				fTxtCaja3.setBackground(new Color(240, 240, 240));
+			formato2(fTxtCaja3, 0, 2, 6, 1, 1);
+						
+	        
+			
+		formato(panel1, 2, 1, 2, 13, 1);
 		
 		
 		
