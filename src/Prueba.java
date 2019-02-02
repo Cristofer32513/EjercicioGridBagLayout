@@ -105,6 +105,24 @@ public class Prueba extends JFrame{
 		formato(label6, 0, 20, 1, 1, 1);
 		
 		
+		JCheckBox checkBox4=new JCheckBox("<html><body>Enable <b>evil</b> popup mode</body></html>");
+			checkBox4.setFont(new Font("Times New Roman", 5, 18));
+		formato(checkBox4, 0, 21, 1, 1, 1);
+		
+		
+		JCheckBox checkBox5=new JCheckBox("<html><body>Disable all <b>JavaScript</b></body></html>");
+			checkBox5.setFont(new Font("Times New Roman", 5, 18));
+		formato(checkBox5, 0, 22, 1, 1, 1);
+		
+		
+		JCheckBox checkBox6=new JCheckBox("Include archive link");
+			checkBox6.setFont(new Font("Times New Roman", 5, 18));
+		formato(checkBox6, 0, 23, 1, 1, 1);
+		
+		
+		JCheckBox checkBox7=new JCheckBox("<html><body>Include <font color=blue>MonkeyRewards link</font></body></html>");
+			checkBox7.setFont(new Font("Times New Roman", 5, 18));
+		formato(checkBox7, 0, 24, 1, 1, 1);
 		
 		
 		
