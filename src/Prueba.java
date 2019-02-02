@@ -1,5 +1,8 @@
 import javax.swing.*;
+import javax.swing.text.MaskFormatter;
+
 import java.awt.*;
+import java.text.ParseException;
 
 public class Prueba extends JFrame{
 	
@@ -151,6 +154,22 @@ public class Prueba extends JFrame{
 		JLabel label8=new JLabel("Preview");
 			label8.setFont(new Font("Arial", 5	, 24));
 		formato(label8, 2, 0, 1, 1, 1);
+		
+		
+		panel1.setLayout(gbl);
+			panel1.setBorder(BorderFactory.createTitledBorder(""));
+			
+			JLabel label9=new JLabel("<html><body><font color=red>* </font>Inidcates required</body></html>");
+				label9.setFont(new Font("Times New Roman", 5	, 14));
+				label9.setHorizontalAlignment(JLabel.RIGHT);
+			formato2(label9, 5, 0, 1, 1, 1);
+			formato2(new JLabel("                                                                                                            ."), 1, 0, 1, 1, 1);
+					
+			
+			
+		formato(panel1, 2, 1, 2, 13, 1);
+		
+		
 		
 		
 		pack();	
