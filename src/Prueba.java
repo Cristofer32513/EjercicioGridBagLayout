@@ -210,7 +210,11 @@ public class Prueba extends JFrame{
 			formato2(txtCaja5, 0, 6, 6, 1, 1);
 			
 			
-			
+			ImageIcon imagen=new ImageIcon("./src/images.jpeg");
+			ImageIcon imagenRed=new ImageIcon(imagen.getImage().getScaledInstance(150, 50, Image.SCALE_REPLICATE));
+			JButton btn1=new JButton(imagenRed);
+			btn1.setBorder(null);
+			formato2(btn1, 0, 7, 1, 2, 1);
 		formato(panel1, 2, 1, 2, 13, 1);
 		
 		
