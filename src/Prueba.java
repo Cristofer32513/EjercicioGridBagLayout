@@ -193,6 +193,12 @@ public class Prueba extends JFrame{
 			formato2(label11, 0, 3, 1, 1, 1);
 			
 			
+			JTextField txtCaja4=new JTextField();
+				txtCaja4.setFont(new Font("Times New Roman", 5, 18));
+				txtCaja4.setBackground(new Color(240, 240, 240));
+			formato2(txtCaja4, 0, 4, 6, 1, 1);
+						
+			
 			
 		formato(panel1, 2, 1, 2, 13, 1);
 		
