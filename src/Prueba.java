@@ -225,16 +225,20 @@ public class Prueba extends JFrame{
 		formato(label13, 2, 16, 1, 1, 2);
 		
 		
-		
+		JTextArea txtArea=new JTextArea();
+			txtArea.setText("<html>\n\n<head>\n<title>El primer documento HTML</title>\n</head>"
+					+ "\n\n<body>\n<p>El lenguaje HTML es <strong>tan sencillo</strong> que"
+					+ "prácticamente se entiende sin estudiar el significadode sus etiquetas"
+					+ "principales.</p>\n</body>\n\n</html>");
+			txtArea.setFont(new Font("Times New Roman", 5, 16));
+			txtArea.setBackground(new Color(230, 230, 230));
+			txtArea.setEditable(false);
+			txtArea.setLineWrap(true);
+			txtArea.setWrapStyleWord(true);
+		formato(txtArea, 2, 17, 3, 12, 2);
 		pack();	
 	}
-	
-	
-	
-	
-	
-	
-	
+		
 	public static void main(String[] args) {
 		try {
 			UIManager.setLookAndFeel("com.sun.java.swing.plaf.nimbus.NimbusLookAndFeel");
