@@ -5,7 +5,8 @@ public class Prueba extends JFrame{
 	
 	GridBagLayout gbl=new GridBagLayout();
 	GridBagConstraints gbc=new GridBagConstraints();
-		
+	JPanel panel1=new JPanel();
+	
 	public Prueba() {
 		crearComponentes();
 	}
@@ -19,6 +20,17 @@ public class Prueba extends JFrame{
 		
 		gbl.setConstraints(componente, gbc);
 		add(componente);
+	}
+	
+	public void formato2(JComponent componente, int gx, int gy, int gWidth, int gHeigth, int gFill){
+		gbc.gridx=gx;
+		gbc.gridy=gy;
+		gbc.gridwidth=gWidth;
+		gbc.gridheight=gHeigth;
+		gbc.fill=gFill;
+		
+		gbl.setConstraints(componente, gbc);
+		panel1.add(componente);
 	}
 	
 	public void crearComponentes(){
