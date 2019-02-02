@@ -30,7 +30,26 @@ public class Prueba extends JFrame{
 		setResizable(false);
 		
 		
+		JLabel label1=new JLabel("<html> <body>The <b>Classic Form</b> includes all visible fields for<br>this list</body></html>");
+			label1.setFont(new Font("Times New Roman", 5, 18));
+		formato(label1, 0, 0, 1, 1, 1);
+		formato(new JLabel(" "), 0, 1, 1, 1, 1);
+	
 		
+		JLabel label2=new JLabel("<html> <body><b>Form Options</b></body></html>");
+			label2.setFont(new Font("Arial", 5, 18));
+		formato(label2, 0, 2, 1, 1, 1);
+		
+		
+		JLabel label3=new JLabel("Include the following:");
+			label3.setBounds(10, 100, 160, 30);
+			label3.setFont(new Font("Times New Roman", 5, 18));
+		formato(label3, 0, 3, 1, 1, 1);
+		
+		
+		
+		
+		pack();	
 	}
 	
 	
