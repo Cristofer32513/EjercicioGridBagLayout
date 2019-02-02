@@ -188,6 +188,11 @@ public class Prueba extends JFrame{
 			formato2(fTxtCaja3, 0, 2, 6, 1, 1);
 						
 	        
+			JLabel label11=new JLabel("First Name");
+				label11.setFont(new Font("Times New Roman", 5, 18));
+			formato2(label11, 0, 3, 1, 1, 1);
+			
+			
 			
 		formato(panel1, 2, 1, 2, 13, 1);
 		
