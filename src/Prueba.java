@@ -77,6 +77,17 @@ public class Prueba extends JFrame{
 		formato(new JLabel(" "), 0, 13, 1, 1, 1);
 		
 		
+		JCheckBox checkBox2=new JCheckBox("Interest group fields");
+			checkBox2.setFont(new Font("Times New Roman", 5, 18));
+		formato(checkBox2, 0, 14, 1, 1, 1);
+		
+		
+		JCheckBox checkBox3=new JCheckBox("Required fields indicators");
+			checkBox3.setFont(new Font("Times New Roman", 5, 18));
+		formato(checkBox3, 0, 15, 1, 1, 1);
+		formato(new JLabel(" "), 0, 16, 1, 1, 1);
+				
+		
 		
 		
 		
