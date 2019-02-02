@@ -51,6 +51,14 @@ public class Prueba extends JFrame{
 		formato(checkBox1, 0, 4, 1, 1, 1);
 		
 		
+		JTextField txtCaja1=new JTextField("Subscribe to our mailing list");
+			txtCaja1.setFont(new Font("Times New Roman", 5, 18));
+			txtCaja1.setBackground(new Color(240, 240, 240));
+		formato(txtCaja1, 0, 5, 1, 1, 1);
+		formato(new JLabel(" "), 0, 6, 1, 1, 1);
+		formato(new JLabel(" "), 0, 7, 1, 1, 1);
+		
+		
 		
 		
 		
