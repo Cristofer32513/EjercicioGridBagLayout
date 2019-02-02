@@ -100,6 +100,11 @@ public class Prueba extends JFrame{
 		formato(new JLabel(" "), 0, 19, 1, 1, 1);
 				
 		
+		JLabel label6=new JLabel("Enhance your form");
+			label6.setFont(new Font("Times New Roman", 5, 18));
+		formato(label6, 0, 20, 1, 1, 1);
+		
+		
 		
 		
 		
