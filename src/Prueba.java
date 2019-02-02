@@ -59,6 +59,17 @@ public class Prueba extends JFrame{
 		formato(new JLabel(" "), 0, 7, 1, 1, 1);
 		
 		
+		ButtonGroup bg=new ButtonGroup();
+			JRadioButton rb1=new JRadioButton("   Only required fields");
+				rb1.setFont(new Font("Times New Roman", 5, 18));
+				bg.add(rb1);
+				formato(rb1, 0, 8, 1, 1, 1);
+			JRadioButton rb2=new JRadioButton("   All fields");
+				rb2.setFont(new Font("Times New Roman", 5, 18));
+				bg.add(rb2);
+				formato(rb2, 0, 9, 1, 1, 1);
+						
+		
 		
 		
 		
