@@ -46,6 +46,11 @@ public class Prueba extends JFrame{
 			label3.setFont(new Font("Times New Roman", 5, 18));
 		formato(label3, 0, 3, 1, 1, 1);
 		
+		JCheckBox checkBox1=new JCheckBox("A title for your form");
+			checkBox1.setFont(new Font("Times New Roman", 5, 18));
+		formato(checkBox1, 0, 4, 1, 1, 1);
+		
+		
 		
 		
 		
